@@ -205,7 +205,19 @@ form input[type="email"] {
   border-radius: 4px; /* Bordes redondeados para el input */
   transition: border-color 0.2s; /* Suave transición de color */
 }
+form input[type="password"]{
+  border: 1px solid #003366;
+  padding: 0.5rem;
+  margin-bottom: 1rem; /* Espacio entre el input y el botón */
+  width: 100%; /* Hacer que el input ocupe el ancho completo */
+  border-radius: 4px; /* Bordes redondeados para el input */
+  transition: border-color 0.2s; /* Suave transición de color */
+}
 
+form input[type="password"]{
+  border-color: #005bb5; /* Cambia el borde al enfocar */
+  outline: none; /* Elimina el contorno por defecto */
+}
 form input[type="email"]:focus {
   border-color: #005bb5; /* Cambia el borde al enfocar */
   outline: none; /* Elimina el contorno por defecto */
